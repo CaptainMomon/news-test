@@ -1,0 +1,83 @@
+body, h1{
+    text-align: center;
+    background-color: beige;
+    margin-top: 2rem ;
+}
+.container {
+    margin: 0 auto 5rem;
+}
+.navbar{
+    display: inline-block;
+    text-align: center;
+    margin: -10rem auto 0rem;
+}
+
+.btn{
+    box-shadow: 0px 1px 3px #000000;
+    margin: 0.4rem;
+}
+
+.card{
+    display: inline-block;
+}
+
+.info-container{
+    border: 1px solid;
+    margin: 5% 20% 0;
+    border-radius: 2%;
+    background-color: beige;
+}
+
+.info{
+    text-align: center;
+    margin: 3% 10% 0;
+    font-size: 1.5rem;
+}
+
+.delta{
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container{
+    margin: auto;
+}
+
+.kort{
+    padding: 2rem;
+}
+
+.footer{
+    height: 100px;
+}
+
+.row img:hover{
+    cursor: pointer;
+    
+}
+
+.row .card:active{
+   border: 10px solid greenyellow;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+img:active{
+    background-color: greenyellow;
+}
+
+@media screen and (max-width: 780px) {
+    .info {
+      font-size: 1.5rem;
+      margin-top: 3rem;
+    }
+    .info-container{
+        border: 1px solid;
+        margin: 10% 5% 10%;
+        border-radius: 2%;
+        background-color: beige;
+    }
+  }
